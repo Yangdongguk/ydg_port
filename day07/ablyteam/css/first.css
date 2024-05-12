@@ -1,0 +1,19 @@
+.first {
+  width: 100vw;
+  height: 50vh;
+}
+
+.text {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.text > span {
+  font-size: var(--font--size--large);
+  font-weight: bold;
+}
